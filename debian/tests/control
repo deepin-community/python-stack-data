@@ -1,0 +1,10 @@
+Tests: pytest
+Depends: gcc,
+         cython3,
+         python3-all-dev,
+         python3-littleutils,
+         python3-pygments,
+         python3-pytest,
+         python3-setuptools,
+         python3-stack-data,
+         python3-typeguard

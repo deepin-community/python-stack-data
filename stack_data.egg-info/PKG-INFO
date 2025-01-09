@@ -1,3 +1,35 @@
+Metadata-Version: 2.1
+Name: stack-data
+Version: 0.6.3
+Summary: Extract data from python stack frames and tracebacks for informative displays
+Home-page: http://github.com/alexmojaki/stack_data
+Author: Alex Hall
+Author-email: alex.mojaki@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Debuggers
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: executing>=1.2.0
+Requires-Dist: asttokens>=2.1.0
+Requires-Dist: pure_eval
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: typeguard; extra == "tests"
+Requires-Dist: pygments; extra == "tests"
+Requires-Dist: littleutils; extra == "tests"
+Requires-Dist: cython; extra == "tests"
+
 # stack_data
 
 [![Tests](https://github.com/alexmojaki/stack_data/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/stack_data/actions/workflows/pytest.yml) [![Coverage Status](https://coveralls.io/repos/github/alexmojaki/stack_data/badge.svg?branch=master)](https://coveralls.io/github/alexmojaki/stack_data?branch=master) [![Supports Python versions 3.5+](https://img.shields.io/pypi/pyversions/stack_data.svg)](https://pypi.python.org/pypi/stack_data)
